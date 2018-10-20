@@ -1,12 +1,6 @@
 import java.io.IOException;
 import java.util.ArrayList;
 
-import structures.Arc;
-import structures.Graph;
-import structures.MinHeap;
-import structures.Node;
-import structures.Vertex;
-
 public class MST_Kruskal {
 	private ArrayList<Node<Vertex>> sets;
 	
