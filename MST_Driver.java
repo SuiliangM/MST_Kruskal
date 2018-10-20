@@ -1,5 +1,3 @@
-package apps;
-
 import java.io.IOException;
 import java.util.ArrayList;
 
@@ -18,15 +16,11 @@ public class MST_Driver {
 		
 		g.print();
 		
-		System.out.println();
-		
 		ArrayList<Node<Vertex>> arrList = mst.initialzation(g, "graph1.txt");
 		
 		for(int i = 0; i < arrList.size(); i++){
 			System.out.println(arrList.get(i));
 		}
-		
-		System.out.println("***************");
 		
 		
 		ArrayList<Arc> result = mst.execute(g, "graph1.txt");
